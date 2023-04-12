@@ -858,15 +858,8 @@ img {
 .portfolio-descr-item {
   padding: 32px 16px;
 
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: var(--accent-color);
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--accent-color);
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-top: none;
 }
 
 .portfolio-item-title {
