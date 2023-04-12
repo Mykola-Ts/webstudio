@@ -8,6 +8,13 @@
     margin-right: auto;
   }
 
+  /* ----------------HEADER---------------- */
+
+  .mobile-address-link.mobile-address-tel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
   /* ----------------MODAL-WINDOW---------------- */
 
   .modal-order-service {
@@ -485,12 +492,6 @@
 
   .mobile-address-link:is(:hover, :focus) {
     color: var(--pressed-state-color);
-  }
-
-  .mobile-address-tel {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
   }
 
   .mobile-social-list {
