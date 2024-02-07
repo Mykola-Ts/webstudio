@@ -1,3 +1,14 @@
+/* ----------------HERO---------------- */
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--linear-gradient),
+      url(../images/hero-bg-image-mobile@2x.jpg);
+  }
+}
+
 /* ----------------MIN-WIDTH: 428px---------------- */
 
 @media screen and (min-width: 428px) {
@@ -15,6 +26,7 @@
     font-size: 36px;
     line-height: 1.11;
   }
+
   /* ----------------MODAL-WINDOW---------------- */
 
   .modal-order-service {
@@ -61,12 +73,11 @@
   .menu-link::after {
     content: '';
 
-    transform: scaleX(0);
-    transform-origin: right;
-
     position: absolute;
     left: 0;
     bottom: -1px;
+    transform: scaleX(0);
+    transform-origin: right;
 
     display: block;
 
@@ -100,10 +111,7 @@
   .hero {
     max-width: 768px;
 
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: var(--linear-gradient),
       url(../images/hero-bg-image-tablet.jpg);
   }
 
@@ -207,7 +215,7 @@
     padding: 12px 24px;
   }
 
-  /* ----------------PORTFOLIO---------------- */
+  /* --------------------------------PORTFOLIO-------------------------------- */
 
   .portfolio-list {
     column-gap: var(--column-gap-item-list);
@@ -257,11 +265,7 @@
     padding-top: 188px;
     padding-bottom: 188px;
 
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-bg-image.jpg);
+    background-image: var(--linear-gradient), url(../images/hero-bg-image.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -368,7 +372,7 @@
     margin-bottom: 16px;
   }
 
-  /* ----------------PORTFOLIO---------------- */
+  /* --------------------------------PORTFOLIO-------------------------------- */
 
   .portfolio {
     padding-top: 100px;
@@ -411,11 +415,11 @@
 
   .mobile-menu-open-btn {
     display: block;
+
     width: 32px;
     height: 22px;
-    padding: 0;
-
     border: none;
+    padding: 0;
 
     color: var(--dark-color);
     background-color: transparent;
@@ -437,7 +441,7 @@
     height: 100%;
     padding: 80px 30px 40px 40px;
 
-    background-color: #ffffff;
+    background-color: var(--white-color);
 
     transition: transform var(--transition-duration)
       var(--transition-timing-function);
@@ -537,7 +541,7 @@
     margin: 0 auto;
   }
 
-  /* ----------------PORTFOLIO---------------- */
+  /* --------------------------------PORTFOLIO-------------------------------- */
 
   /* ----------------FILTER---------------- */
 
