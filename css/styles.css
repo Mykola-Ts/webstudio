@@ -600,6 +600,8 @@ img {
 
   margin-bottom: 4px;
 
+  cursor: pointer;
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -641,12 +643,14 @@ img {
   left: 16px;
   transform: translateY(-50%);
 
+  cursor: text;
+
   fill: var(--dark-color);
 
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-.modal-order-input:focus + .modal-order-input-icon {
+.modal-order-input:focus + label .modal-order-input-icon {
   fill: var(--primary-brand-color);
 }
 
@@ -697,6 +701,8 @@ img {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+
+  cursor: pointer;
 }
 
 .modal-order-policy-text {
@@ -799,7 +805,8 @@ img {
       var(--transition-timing-function);
 }
 
-.filter-btn:is(:hover, :focus) {
+.filter-btn:is(:hover, :focus),
+.active-filter-btn {
   border: 1px solid var(--pressed-state-color);
 
   color: var(--white-color);

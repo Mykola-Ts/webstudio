@@ -172,27 +172,60 @@
         <div class="portfolio-container container">
           <h1 class="portfolio-title visually-hidden">Portfolio</h1>
 
-          <ul class="filter list">
+          <ul class="filter list js-filter">
             <li>
-              <button class="filter-btn button" type="button">All</button>
+              <button
+                class="filter-btn button js-filter-btn"
+                type="button"
+                data-value="All"
+              >
+                All
+              </button>
             </li>
             <li>
-              <button class="filter-btn button" type="button">Web Site</button>
+              <button
+                class="filter-btn button js-filter-btn"
+                type="button"
+                data-value="Web Site"
+              >
+                Web Site
+              </button>
             </li>
             <li>
-              <button class="filter-btn button" type="button">App</button>
+              <button
+                class="filter-btn button js-filter-btn"
+                type="button"
+                data-value="App"
+              >
+                App
+              </button>
             </li>
             <li>
-              <button class="filter-btn button" type="button">Design</button>
+              <button
+                class="filter-btn button js-filter-btn"
+                type="button"
+                data-value="Design"
+              >
+                Design
+              </button>
             </li>
             <li>
-              <button class="filter-btn button" type="button">Marketing</button>
+              <button
+                class="filter-btn button js-filter-btn"
+                type="button"
+                data-value="Marketing"
+              >
+                Marketing
+              </button>
             </li>
           </ul>
 
           <!-- Portfolio -->
-          <ul class="portfolio-list list">
-            <li class="portfolio-list-item">
+          <ul class="portfolio-list list js-portfolio-list">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="App"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -238,7 +271,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Marketing"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -282,7 +318,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="App"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -326,7 +365,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Marketing"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -370,7 +412,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Design"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -414,7 +459,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Marketing"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -458,7 +506,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Design"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -504,7 +555,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Web Site"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -548,7 +602,10 @@
               </a>
             </li>
 
-            <li class="portfolio-list-item">
+            <li
+              class="portfolio-list-item js-portfolio-list-item"
+              data-id="Web Site"
+            >
               <a class="portfolio-item-link link" href="">
                 <div class="portfolio-item-thumb">
                   <picture>
@@ -683,6 +740,6 @@
       </div>
     </footer>
 
-    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/portfolio.js" type="module"></script>
   </body>
 </html>
