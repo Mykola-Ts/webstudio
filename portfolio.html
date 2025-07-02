@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore our portfolio showcasing a wide range of successful projects completed by WebStudio."
+    />
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,22 +28,22 @@
     <header class="header">
       <div class="header-container container">
         <nav class="page-nav">
-          <a class="logo link" href="./index.html"
+          <a href="./index.html" class="logo link" aria-label="Website logo"
             >Web<span class="part-logo-header">Studio</span></a
           >
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Studio</a>
+              <a href="./index.html" class="menu-link link">Studio</a>
             </li>
             <li class="menu-item">
               <a
-                class="menu-link link menu-link-current"
                 href="./portfolio.html"
+                class="menu-link link menu-link-current"
                 >Portfolio</a
               >
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="">Contacts</a>
+              <a href="" class="menu-link link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -47,12 +51,12 @@
         <address class="address">
           <ul class="address-list list">
             <li class="address-item">
-              <a class="address-link link" href="mailto:info@devstudio.com"
+              <a href="mailto:info@devstudio.com" class="address-link link"
                 >info@devstudio.com</a
               >
             </li>
             <li class="address-item">
-              <a class="address-link link" href="tel:+110001111111"
+              <a href="tel:+110001111111" class="address-link link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -61,6 +65,7 @@
 
         <button
           type="button"
+          aria-label="Open mobile menu"
           class="mobile-menu-open-btn button"
           data-menu-open
         >
@@ -71,8 +76,9 @@
 
         <div class="mobile-menu is-hidden" data-menu>
           <button
-            class="mobile-menu-close-btn close-btn button"
             type="button"
+            aria-label="Close mobile menu"
+            class="mobile-menu-close-btn close-btn button"
             data-menu-close
           >
             <svg width="8" height="8" class="icon-close">
@@ -83,19 +89,19 @@
           <nav class="mobile-menu-nav">
             <ul class="mobile-menu-list list">
               <li class="mobile-menu-item">
-                <a class="mobile-menu-link menu-link link" href="./index.html"
+                <a href="./index.html" class="mobile-menu-link menu-link link"
                   >Studio</a
                 >
               </li>
               <li class="mobile-menu-item">
                 <a
-                  class="mobile-menu-link menu-link link menu-link-current"
                   href="./portfolio.html"
+                  class="mobile-menu-link menu-link link menu-link-current"
                   >Portfolio</a
                 >
               </li>
               <li class="mobile-menu-item">
-                <a class="mobile-menu-link menu-link link" href="">Contacts</a>
+                <a href="" class="mobile-menu-link menu-link link">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -104,15 +110,15 @@
             <ul class="mobile-address-list list">
               <li class="mobile-address-item">
                 <a
-                  class="mobile-address-link mobile-address-tel link"
                   href="tel:+110001111111"
+                  class="mobile-address-link mobile-address-tel link"
                   >+11 (000) 111-11-11</a
                 >
               </li>
               <li class="mobile-address-item">
                 <a
-                  class="mobile-address-link link"
                   href="mailto:info@devstudio.com"
+                  class="mobile-address-link link"
                   >info@devstudio.com</a
                 >
               </li>
@@ -124,6 +130,7 @@
                   href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's Instagram page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-instagram"></use></svg
@@ -134,6 +141,7 @@
                   href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's Twitter page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -144,6 +152,7 @@
                   href="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's Facebook page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -154,6 +163,7 @@
                   href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's LinkedIn page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -175,8 +185,8 @@
           <ul class="filter list js-filter">
             <li>
               <button
-                class="filter-btn button js-filter-btn"
                 type="button"
+                class="filter-btn button js-filter-btn"
                 data-value="All"
               >
                 All
@@ -184,8 +194,8 @@
             </li>
             <li>
               <button
-                class="filter-btn button js-filter-btn"
                 type="button"
+                class="filter-btn button js-filter-btn"
                 data-value="Web Site"
               >
                 Web Site
@@ -193,8 +203,8 @@
             </li>
             <li>
               <button
-                class="filter-btn button js-filter-btn"
                 type="button"
+                class="filter-btn button js-filter-btn"
                 data-value="App"
               >
                 App
@@ -202,8 +212,8 @@
             </li>
             <li>
               <button
-                class="filter-btn button js-filter-btn"
                 type="button"
+                class="filter-btn button js-filter-btn"
                 data-value="Design"
               >
                 Design
@@ -211,8 +221,8 @@
             </li>
             <li>
               <button
-                class="filter-btn button js-filter-btn"
                 type="button"
+                class="filter-btn button js-filter-btn"
                 data-value="Marketing"
               >
                 Marketing
@@ -226,7 +236,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="App"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -275,7 +289,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Marketing"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -322,7 +340,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="App"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -369,7 +391,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Marketing"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -416,7 +442,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Design"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -463,7 +493,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Marketing"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -510,7 +544,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Design"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -559,7 +597,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Web Site"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -606,7 +648,11 @@
               class="portfolio-list-item js-portfolio-list-item"
               data-id="Web Site"
             >
-              <a class="portfolio-item-link link" href="">
+              <a
+                href=""
+                aria-label="View details of project"
+                class="portfolio-item-link link"
+              >
                 <div class="portfolio-item-thumb">
                   <picture>
                     <source
@@ -657,7 +703,10 @@
     <footer class="footer section">
       <div class="footer-container container">
         <div class="footer-descr">
-          <a class="footer-logo logo link" href="./index.html"
+          <a
+            href="./index.html"
+            aria-label="Website logo"
+            class="footer-logo logo link"
             >Web<span class="part-logo-footer">Studio</span></a
           >
           <p class="footer-descr-text">
@@ -675,6 +724,7 @@
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's Instagram page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
@@ -685,6 +735,7 @@
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's Twitter page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -695,6 +746,7 @@
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's Facebook page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -705,6 +757,7 @@
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's LinkedIn page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg

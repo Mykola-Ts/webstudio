@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WebStudio is a modern digital agency offering high-quality web design, responsive layouts, and branding solutions to help your business grow online."
+    />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,21 +28,21 @@
     <header class="header">
       <div class="header-container container">
         <nav class="page-nav">
-          <a class="logo link" href="./index.html"
+          <a href="./index.html" aria-label="Website logo" class="logo link"
             >Web<span class="part-logo-header">Studio</span></a
           >
 
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link link menu-link-current" href="./index.html"
+              <a href="./index.html" class="menu-link link menu-link-current"
                 >Studio</a
               >
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+              <a href="./portfolio.html" class="menu-link link">Portfolio</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="">Contacts</a>
+              <a href="" class="menu-link link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -46,12 +50,12 @@
         <address class="address">
           <ul class="address-list list">
             <li class="address-item">
-              <a class="address-link link" href="mailto:info@devstudio.com"
+              <a href="mailto:info@devstudio.com" class="address-link link"
                 >info@devstudio.com</a
               >
             </li>
             <li class="address-item">
-              <a class="address-link link" href="tel:+110001111111"
+              <a href="tel:+110001111111" class="address-link link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -60,6 +64,7 @@
 
         <button
           type="button"
+          aria-label="Open mobile menu"
           class="mobile-menu-open-btn button"
           data-menu-open
         >
@@ -70,8 +75,9 @@
 
         <div class="mobile-menu is-hidden" data-menu>
           <button
-            class="mobile-menu-close-btn close-btn button"
             type="button"
+            aria-label="Close mobile menu"
+            class="mobile-menu-close-btn close-btn button"
             data-menu-close
           >
             <svg width="8" height="8" class="icon-close">
@@ -83,20 +89,20 @@
             <ul class="mobile-menu-list list">
               <li class="mobile-menu-item">
                 <a
-                  class="mobile-menu-link menu-link link menu-link-current"
                   href="./index.html"
+                  class="mobile-menu-link menu-link link menu-link-current"
                   >Studio</a
                 >
               </li>
               <li class="mobile-menu-item">
                 <a
-                  class="mobile-menu-link menu-link link"
                   href="./portfolio.html"
+                  class="mobile-menu-link menu-link link"
                   >Portfolio</a
                 >
               </li>
               <li class="mobile-menu-item">
-                <a class="mobile-menu-link menu-link link" href="">Contacts</a>
+                <a href="" class="mobile-menu-link menu-link link">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -105,15 +111,15 @@
             <ul class="mobile-address-list list">
               <li class="mobile-address-item">
                 <a
-                  class="mobile-address-link mobile-address-tel link"
                   href="tel:+110001111111"
+                  class="mobile-address-link mobile-address-tel link"
                   >+11 (000) 111-11-11</a
                 >
               </li>
               <li class="mobile-address-item">
                 <a
-                  class="mobile-address-link link"
                   href="mailto:info@devstudio.com"
+                  class="mobile-address-link link"
                   >info@devstudio.com</a
                 >
               </li>
@@ -125,6 +131,7 @@
                   href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's Instagram page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-instagram"></use></svg
@@ -135,6 +142,7 @@
                   href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's Twitter page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -145,6 +153,7 @@
                   href="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's Facebook page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -155,6 +164,7 @@
                   href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
+                  aria-label="Visit WebStudio's LinkedIn page"
                   class="social-link link"
                   ><svg width="16" height="16" class="social-icon">
                     <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -173,8 +183,8 @@
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button
-            class="hero-btn primary-btn button"
             type="button"
+            class="hero-btn primary-btn button"
             data-modal-open
           >
             Order Service
@@ -312,6 +322,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Mark's Instagram profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use
@@ -324,6 +335,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Mark's Twitter profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -334,6 +346,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Mark's Facebook profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -344,6 +357,7 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Mark's LinkedIn profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -373,6 +387,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Tom's Instagram profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use
@@ -385,6 +400,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Tom's Twitter profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -395,6 +411,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Tom's Facebook profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -405,6 +422,7 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Tom's LinkedIn profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -434,6 +452,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Camila's Instagram profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use
@@ -446,6 +465,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Camila's Twitter profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -456,6 +476,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Camila's Facebook profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -466,6 +487,7 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Camila's LinkedIn profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -495,6 +517,7 @@
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Daniel's Instagram profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use
@@ -507,6 +530,7 @@
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Daniel's Twitter profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -517,6 +541,7 @@
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Daniel's Facebook profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -527,6 +552,7 @@
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer nofollow"
+                      aria-label="Visit Daniel's LinkedIn profile"
                       class="social-link link"
                       ><svg width="16" height="16" class="social-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -550,6 +576,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit YA & CO customer profile"
                 class="customers-link link"
               >
                 <svg width="104" height="56" class="customers-logo">
@@ -562,6 +589,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit COMPANY Tagline Here customer profile"
                 class="customers-link link"
               >
                 <svg width="104" height="56" class="customers-logo">
@@ -574,6 +602,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit COMPANY with wave logo profile"
                 class="customers-link link"
               >
                 <svg width="104" height="56" class="customers-logo">
@@ -586,6 +615,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit Foster Peters customer profile"
                 class="customers-link link"
               >
                 <svg width="104" height="56" class="customers-logo">
@@ -598,6 +628,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit BRAND customer profile"
                 class="customers-link link"
               >
                 <svg width="104" height="56" class="customers-logo">
@@ -610,6 +641,7 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit COMPANY Tag Line profile"
                 class="customers-link link"
               >
                 <svg width="104" height="56" class="customers-logo">
@@ -626,7 +658,10 @@
     <footer class="footer section">
       <div class="footer-container container">
         <div class="footer-descr">
-          <a class="footer-logo logo link" href="./index.html"
+          <a
+            href="./index.html"
+            aria-label="Website logo"
+            class="footer-logo logo link"
             >Web<span class="part-logo-footer">Studio</span></a
           >
           <p class="footer-descr-text">
@@ -644,6 +679,7 @@
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's Instagram page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
@@ -654,6 +690,7 @@
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's Twitter page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-twitter"></use></svg
@@ -664,6 +701,7 @@
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's Facebook page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
@@ -674,6 +712,7 @@
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                aria-label="Visit WebStudio's LinkedIn page"
                 class="footer-social-link social-link link"
                 ><svg width="24" height="24" class="social-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
@@ -711,7 +750,12 @@
     <!-- Modal-window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-order-service">
-        <button class="close-btn button" type="button" data-modal-close>
+        <button
+          type="button"
+          aria-label="Close modal window"
+          class="close-btn button"
+          data-modal-close
+        >
           <svg width="8" height="8" class="icon-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
