@@ -289,11 +289,18 @@ img {
   text-align: center;
 
   background-image: var(--linear-gradient),
-    url(../images/hero-bg-image-mobile.jpg);
+    url(../images/hero/hero-bg-image-mobile.jpg);
   background-color: var(--dark-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@supports (background-image: url('../images/hero/hero-bg-image-mobile.webp')) {
+  .hero {
+    background-image: var(--linear-gradient),
+      url(../images/hero/hero-bg-image-mobile.webp);
+  }
 }
 
 .hero-title {
