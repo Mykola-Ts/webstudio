@@ -1,0 +1,23 @@
+.activity {
+  display: none;
+}
+
+/* ----------------MIN-WIDTH: 1160px---------------- */
+@media screen and (min-width: 1160px) {
+  .activity {
+    display: block;
+  }
+
+  .activity.section {
+    padding-top: 0;
+  }
+
+  .activity-list {
+    display: flex;
+    gap: var(--column-gap-item-list);
+  }
+
+  .activity-item {
+    width: calc((100% - 48px) / 3);
+  }
+}

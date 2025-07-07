@@ -1,0 +1,173 @@
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--text-color);
+}
+
+body.modal-open,
+body.menu-open {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-brand-color);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.primary-btn {
+  border: none;
+  border-radius: 4px;
+
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.primary-btn:is(:hover, :focus) {
+  background-color: var(--pressed-state-color);
+}
+
+.title {
+  margin-bottom: 72px;
+
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--dark-color);
+}
+
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  color: var(--light-color);
+  background-color: var(--primary-brand-color);
+
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.social-link:is(:hover, :focus) {
+  background-color: var(--pressed-state-color);
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+.close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  background-color: var(--accent-color);
+  color: var(--dark-color);
+
+  transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
+}
+
+.close-btn:is(:hover, :focus) {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
+}
+
+.icon-close {
+  fill: currentColor;
+}
+
+/* ----------------MIN-WIDTH: 428px---------------- */
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ----------------MIN-WIDTH: 768px---------------- */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 584px;
+  }
+}
+
+/* ----------------MIN-WIDTH: 1160px---------------- */
+@media screen and (min-width: 1160px) {
+  .container {
+    width: 1160px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
