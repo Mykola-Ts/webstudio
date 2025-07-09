@@ -24,4 +24,8 @@
   .portfolio {
     padding-top: 100px;
   }
+
+  .portfolio-container {
+    width: 1160px;
+  }
 }

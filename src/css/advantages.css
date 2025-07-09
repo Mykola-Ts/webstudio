@@ -45,6 +45,10 @@
 
 /* ----------------MIN-WIDTH: 1160px---------------- */
 @media screen and (min-width: 1160px) {
+  .advantages {
+    width: 1160px;
+  }
+
   .advantages-item-title {
     font-weight: 500;
     font-size: 20px;

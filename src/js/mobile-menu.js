@@ -1,15 +1,13 @@
-(() => {
-  const refs = {
-    openMenuBtn: document.querySelector('[data-menu-open]'),
-    closeMenuBtn: document.querySelector('[data-menu-close]'),
-    menu: document.querySelector('[data-menu]'),
-  };
+const selectors = {
+  openMenuBtn: document.querySelector('[data-menu-open]'),
+  closeMenuBtn: document.querySelector('[data-menu-close]'),
+  menu: document.querySelector('[data-menu]'),
+};
 
-  refs.openMenuBtn.addEventListener('click', toggleMenu);
-  refs.closeMenuBtn.addEventListener('click', toggleMenu);
+selectors.openMenuBtn.addEventListener('click', handlerToggleMenu);
+selectors.closeMenuBtn.addEventListener('click', handlerToggleMenu);
 
-  function toggleMenu() {
-    document.body.classList.toggle('menu-open');
-    refs.menu.classList.toggle('is-hidden');
-  }
-})();
+function handlerToggleMenu() {
+  document.body.classList.toggle('menu-open');
+  selectors.menu.classList.toggle('is-hidden');
+}
