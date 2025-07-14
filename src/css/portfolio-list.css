@@ -66,14 +66,17 @@
 
   overflow: auto;
 
+  color: var(--light-color);
   background-color: var(--primary-brand-color);
 
   transition: transform var(--transition-duration)
     var(--transition-timing-function);
 }
 
-.portfolio-text-overlay {
-  color: var(--light-color);
+.portfolio-text-overlay-item {
+  display: block;
+
+  margin-top: 8px;
 }
 
 .portfolio-item-link:is(:hover, :focus) .portfolio-overlay {
