@@ -89,8 +89,8 @@ Each page contains the following main sections:
 - [Live Demo](https://mykola-ts.github.io/webstudio/) — deployed version of the
   website
 
-- [GitHub Repository](https://github.com/Mykola-Ts/webstudio) — deployed version
-  of the website
+- [GitHub Repository](https://github.com/Mykola-Ts/webstudio) — source code of
+  the project
 
 - [Figma Design](https://www.figma.com/design/DNYDonWJusLuHxUjzGQlDW/Web-Studio--Version-3.0---Copy-?node-id=297046-1554&p=f&t=iFNWu8mMAEMfkExP-0)
   — the project’s UI/UX design mockup
