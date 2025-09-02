@@ -1,6 +1,6 @@
 # 🌐💻 WebStudio
 
-WebStudio is a modern digital agency offering high-quality web design,
+**WebStudio** is a modern digital agency offering high-quality web design,
 responsive layouts, and branding solutions to help your business grow online.
 
 ![Brand logo](./assets/logo.jpg)
@@ -8,25 +8,15 @@ responsive layouts, and branding solutions to help your business grow online.
 ## 📑 Table of Contents
 
 - [About the Project](#-about-the-project)
-
 - [Website Structure](#-website-structure)
-
 - [Useful Links](#-useful-links)
-
 - [Technologies Used](#-technologies-used)
-
 - [Libraries Used](#-libraries-used)
-
 - [Folder and File Structure](#-folder-and-file-structure)
-
 - [Features](#-features)
-
 - [PageSpeed Results](#-pagespeed-results)
-
 - [Validation Result](#-validation-result)
-
 - [Installation & Setup](#-installation--setup)
-
 - [Author](#-author)
 
 ## 📝 About the Project
@@ -41,48 +31,59 @@ mobile navigation menu, and a modal window for service orders.
 
 ![Website start page](./assets/webstudio.jpg)
 
-### 🧩 Website Structure
+## 🧩 Website Structure
 
 The website consists of two pages:
 
-**Home page** (index.html) — introduces the company and its services.
+- **Home page** (index.html) — introduces the company and its services;
 
-**Portfolio page** (portfolio.html) — showcases the agency’s completed projects.
+- **Portfolio page** (portfolio.html) — showcases the agency’s completed
+  projects.
 
 Each page contains the following main sections:
 
-🏠 **Home Page**
+- 🏠 **Home Page:**
 
-- **Header** — contains the site logo, a navigation menu linking to key
-  sections, contact email, and a phone number clickable on mobile devices, and a
-  responsive mobile menu for better usability on small screens;
-- **Hero** — a visually engaging section featuring a prominent headline, a
-  button that opens a modal request form, and a background image that conveys
-  the agency’s digital focus;
-- **Modal Window** — a popup form that appears when the user clicks the "Order
-  Service" button in the Hero section, allowing visitors to submit a service
-  request without leaving the page;
-- **Advantages** — highlights the agency’s core strengths such as Strategy,
-  Punctuality, Diligence, and Technologies using icons and brief descriptions;
-- **Activity** — presents visual examples of the agency's work through a gallery
-  of service images;
-- **Team** — introduces the team members with profile photos, roles, and links
-  to social media;
-- **Customers** — displays logos of partner companies and clients to build trust
-  and credibility;
-- **Footer** — includes a short call to action, social media links, a
-  subscription form, and additional navigation.
+  - **Header** — contains the site logo, a navigation menu linking to key
+    sections, contact email, and a phone number clickable on mobile devices, and
+    a responsive mobile menu for better usability on small screens;
 
-🗂 **Portfolio Page**
+  - **Hero** — a visually engaging section featuring a prominent headline, a
+    button that opens a modal request form, and a background image that conveys
+    the agency’s digital focus;
 
-- **Header** — same as on the homepage: logo, navigation menu, email, and phone
-  number;
-- **Filter** — allows users to filter portfolio projects by categories (e.g.,
-  App, Web Site, Design, Marketing);
-- **Portfolio** — a grid-based gallery showcasing individual projects with
-  images, titles, and categories;
-- **Footer** — same as the homepage footer, providing contact, subscription, and
-  social media links.
+  - **Modal Window** — a popup form that appears when the user clicks the "Order
+    Service" button in the Hero section, allowing visitors to submit a service
+    request without leaving the page;
+
+  - **Advantages** — highlights the agency’s core strengths such as Strategy,
+    Punctuality, Diligence, and Technologies using icons and brief descriptions;
+
+  - **Activity** — presents visual examples of the agency's work through a
+    gallery of service images;
+
+  - **Team** — introduces the team members with profile photos, roles, and links
+    to social media;
+
+  - **Customers** — displays logos of partner companies and clients to build
+    trust and credibility;
+
+  - **Footer** — includes a short call to action, social media links, a
+    subscription form, and additional navigation.
+
+- 🗂 **Portfolio Page:**
+
+  - **Header** — same as on the homepage: logo, navigation menu, email, and
+    phone number;
+
+  - **Filter** — allows users to filter portfolio projects by categories (e.g.,
+    App, Web Site, Design, Marketing);
+
+  - **Portfolio** — a grid-based gallery showcasing individual projects with
+    images, titles, and categories;
+
+  - **Footer** — same as the homepage footer, providing contact, subscription,
+    and social media links.
 
 ## 🔗 Useful Links
 
@@ -106,50 +107,50 @@ Each page contains the following main sections:
 ## 📦 Libraries Used
 
 - [vite](https://vite.dev/) — next generation frontend tooling (dev server &
-  build tool)
+  build tool);
 - [glob](https://www.npmjs.com/package/glob) — file path pattern matching (used
-  for dynamic input in builds)
+  for dynamic input in builds);
 - [modern-normalize](https://github.com/sindresorhus/modern-normalize) — CSS
-  normalization to make built-in browser styling consistent
+  normalization to make built-in browser styling consistent;
 - [vite-plugin-full-reload](https://www.npmjs.com/package/vite-plugin-full-reload)
-  — hot reload for HTML and other non-JS files in Vite
+  — hot reload for HTML and other non-JS files in Vite;
 - [vite-plugin-html-inject](https://www.npmjs.com/package/vite-plugin-html-inject)
-  — inject variables or partials into HTML at build time
+  — inject variables or partials into HTML at build time.
 
 ## 📁 Folder and File Structure
 
-- **.github/**: GitHub-specific configuration and workflows.
+- **.github/**: GitHub-specific configuration and workflows;
 
 - **assets/**: Folder stores images used in the README.md file to visually
-  document and represent the project.
+  document and represent the project;
 
 - **src/**: Folder contains the source code of the application, including all
   essential files such as HTML, CSS, JavaScript, and component logic used to
   build and structure the project:
 
-  - **css/**: CSS files for each section of the site.
+  - **css/**: CSS files for each section of the site;
 
-  - **fonts/**: Custom fonts used in the project.
+  - **fonts/**: Custom fonts used in the project;
 
-  - **images/**: Folder for images and icons used throughout the site.
+  - **images/**: Folder for images and icons used throughout the site;
 
-  - **js/**: Contains JavaScript files for functionality.
+  - **js/**: Contains JavaScript files for functionality;
 
-  - **partials/**: HTML partials for each section of the site.
+  - **partials/**: HTML partials for each section of the site;
 
-  - **public/**: Static assets for Vite (e.g., images, favicons, etc.).
+  - **public/**: Static assets for Vite (e.g., images, favicons, etc.);
 
   - **index.html**: The main HTML file for the site.
 
-- **.editorconfig**: Editor configuration file.
+- **.editorconfig**: Editor configuration file;
 
-- **.gitignore**: Specifies which files and directories to ignore in Git.
+- **.gitignore**: Specifies which files and directories to ignore in Git;
 
-- **.prettierrc.json**: Prettier configuration for code formatting.
+- **.prettierrc.json**: Prettier configuration for code formatting;
 
-- **package.json**: Contains metadata about the project and dependencies.
+- **package.json**: Contains metadata about the project and dependencies;
 
-- **README.md**: Project documentation and setup instructions.
+- **README.md**: Project documentation and setup instructions;
 
 - **vite.config.js**: Configuration file for Vite.
 
@@ -204,25 +205,25 @@ Google's PageSpeed Insights was used to analyze the performance of the WebStudio
 website on both mobile and desktop devices. The results highlight strong
 performance across various categories, ensuring a smooth user experience.
 
-🏠 **Home Page**
+- 🏠 **Home Page:**
 
-- **📱 Mobile Performance:**
+  - **📱 Mobile Performance**
 
-![Mobile Home Page Performance](./assets/page-speed-mobile.jpg)
+  ![Mobile Home Page Performance](./assets/page-speed-mobile.jpg)
 
-- **💻 Desktop Performance:**
+  - **💻 Desktop Performance**
 
-![Desktop Home Page Performance](./assets/page-speed-desktop.jpg)
+  ![Desktop Home Page Performance](./assets/page-speed-desktop.jpg)
 
-🗂 **Portfolio Page**
+- 🗂 **Portfolio Page:**
 
-- **📱 Mobile Performance:**
+  - **📱 Mobile Performance**
 
-![Mobile Portfolio Page Performance](./assets/page-speed-mobile-portfolio-page.jpg)
+  ![Mobile Portfolio Page Performance](./assets/page-speed-mobile-portfolio-page.jpg)
 
-- **💻 Desktop Performance:**
+  - **💻 Desktop Performance**
 
-![Desktop Portfolio Page Performance](./assets/page-speed-desktop-portfolio-page.jpg)
+  ![Desktop Portfolio Page Performance](./assets/page-speed-desktop-portfolio-page.jpg)
 
 These results demonstrate that the website is optimized for both performance and
 user experience, ensuring fast loading times and high usability on all devices.
@@ -233,11 +234,11 @@ The website has been tested with the
 [W3C Markup Validation Service](https://validator.w3.org/) and contains no
 validation errors or warnings.
 
-🏠 **Home Page**
+- 🏠 **Home Page**
 
 ![Validation result home page](./assets/validation-result.jpg)
 
-🗂 **Portfolio Page**
+- 🗂 **Portfolio Page**
 
 ![Validation result portfolio page](./assets/validation-result-portfolio-page.jpg)
 
